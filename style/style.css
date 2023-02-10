@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    color: #000000;
+}
+body{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexir{
+    justify-content: center;
+
+    
+}
+header nav ul li{ 
+    height: 70px;
+    border-radius: 0 35px 0 35px;
+    background-color: #79B331;
+    padding: 18px 24px;
+    margin: 30px;   
+    
+       
+} 
+
+
+
+
+
+
+
+header nav ul li:nth-child(2){
+    width: 125px;
+    
+}
+header nav ul li:nth-child(3){
+    width: 70px;
+    
+}
+/* -------------------- main starts here */
+
+
+.dro{
+    width: 432px;
+    height: 187px;
+    margin: 150px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    align-content: space-evenly;
+}
+.wre{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #79B331;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: bzriali 10s;
+    
+
+}
+@keyframes bzriali {
+    0%{top: 0;left: 0;}
+    25%{top: 0;left:400px}
+    50%{top: 155px; left: 400px}
+    75%{top: 155px; left: 0}
+    100%{top: 0; left: 0;}
+    
+}
+.dro p h2{
+    color: #ffffff;
+    
+    
+}
+.dro h2{
+    font-size: 24px;
+}
+
+/* aq iwyeba xe----------------- */
+
+.xe{
+
+    width: 1200px;
+    height: 400px;
+    margin: 150px auto;
+    margin-left: 300px;
+    position: relative;
+}
+.ghero{
+    width: 1px;
+    height: 400px;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+    
+}
+.totebi{
+    width: 50%;
+    position: absolute;
+    top: -40px ;
+    left: 0;
+
+}
+.totebi2{
+    left: 50%;
+    top: 60px;
+}
+.totebi3{
+    top: 140px;
+}
+.totebi4{
+    left: 50%;
+    top: 240px;
+}
+.turn{
+    transform: rotate(90deg);
+}
+.potoli{
+    width: 70px;
+    height: 70px;
+    border-radius: 0 35px;
+    background-color: #C4C4C4;
+}
+.totebi p{
+    width: 70%;
+}
+.totebi:hover .potoli{
+    background-color: #79B331;
+}
+.totebi:hover p{
+    color: #79B331;
+}
+
+/* responsive starts here--- */
+
+@media only screen and (max-width: 1024px) {
+    header{
+        width: 100%;
+    }
+    .dro{
+        margin-top: 10px;
+    }
+    .turn{
+        transform: rotate(0deg);
+    }
+    .totebi2, .totebi4{
+        flex-direction: row-reverse;
+        left: 0;
+    }
+    .xe{
+        width: 600px;
+        height: 250px;
+        margin: 50px auto;
+        margin-left: 300px;
+    }
+    .totebi{
+        width: 70%;
+    }
+    .ghero{
+        margin-left: 420px;
+        height: 280px;
+    }
+  }
+
+
+
+
+ 
+
+        
+   
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
