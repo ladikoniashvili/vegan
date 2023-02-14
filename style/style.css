@@ -36,6 +36,10 @@ header nav ul li{
        
 } 
 
+header nav ul li:hover{
+    border: 2px solid #16bfa0;
+}
+
 
 
 
@@ -82,7 +86,7 @@ header nav ul li:nth-child(3){
     100%{top: 0; left: 0;}
     
 }
-.dro p h2{
+.dro p, h2{
     color: #ffffff;
     
     
@@ -175,6 +179,70 @@ header nav ul li:nth-child(3){
         height: 280px;
     }
   }
+/* ---------------- shop html starts here--*/
+
+main h2{
+    text-align: center;
+    color: #252525;
+    margin-top: 100px;
+}
+.shops{
+    width: 420px;
+    height: 420px;
+    margin: 100px auto;
+    flex-wrap: wrap;
+    padding: 5px;
+    
+}
+.shopebi {
+    width: 200px;
+    height: 200px;
+    background-color: #D9D9D9;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    
+    
+}
+.shopebi p, .pawua{
+    display: none;
+    
+}
+.shopebi .pawua{
+    background-image: none;
+}
+.shopebi:hover p, .pawua, .img{
+    display: flex;
+    color: #ffffff;
+    
+}
+.shopebi:hover .pawua{
+    background-image: url(../img/placeholder\ 1.png);
+}
+.shopebi:hover{
+    background-color: #79B331;
+}
+
+
+
+
+.shopebi img:hover{
+    content: url(../img/shop\ 1.png);
+}
+
+
+
+.shopebi img{
+    width: 70px;
+    height: 70px;
+       
+}
+.pawua{
+    width: 18px;
+    height: 18px;
+   
+}
+
 
 
 
