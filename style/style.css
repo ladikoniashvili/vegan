@@ -243,6 +243,37 @@ main h2{
     height: 18px;
    
 }
+.yidva{
+    text-align: center;
+}
+.pc{
+    width: 420px;;
+    height: 70px;;
+    margin: 100px auto;
+    background-color: #C4C4C4; 
+    
+}
+.pc img{
+    margin-left: 200px;
+    margin-top: 10px;
+    
+}
+.pc:hover{
+    background-color: #79B331;
+}
+/*  shopebi meorex= */
+.shop1{
+    flex-direction: column;
+    width: 620px; 
+    margin-left: 480px;
+}
+.shopebi1 img:hover{
+    content: "";
+}
+.shopebi1 p{
+    text-align: center;
+}
+
 
 
 
